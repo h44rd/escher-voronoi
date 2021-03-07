@@ -160,7 +160,7 @@ var PostProcessShader = {
 
         "   G = step(0.001, G);",
 
-		"	gl_FragColor = (1.0 - G) * texture2D(tDiffuse, vUv);",
+		"	gl_FragColor = (1.0 - G) * vec4(1.0);",
 
 		"}"
 
